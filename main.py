@@ -1,7 +1,7 @@
 import random
 
-number = input('Количество паролей:')
-length = input('Длина пароля:')
+number = input('Number of passwords:')
+length = input('Password length:')
 chars = '+-/*!&$#?=@<>abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
 
 number = int(number)
