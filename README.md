@@ -1,28 +1,41 @@
 # Python-Password-Generator
 
-Password Generator
+<!-- Introduction -->
+<p><strong>Password Generator</strong></p>
+<p>This script generates random passwords based on user-defined parameters.</p>
 
-This script generates random passwords based on user-defined parameters.
+<!-- Usage Instructions -->
+<h2>Usage:</h2>
+<ol>
+  <li>Run the script.</li>
+  <li>Enter the number of passwords you want to generate.</li>
+  <li>Enter the desired length for each password.</li>
+  <li>The script will output the randomly generated passwords.</li>
+</ol>
 
-Usage:
-1. Run the script.
-2. Enter the number of passwords you want to generate.
-3. Enter the desired length for each password.
-4. The script will output the randomly generated passwords.
+<!-- Parameters -->
+<h2>Parameters:</h2>
+<ul>
+  <li><strong>Number of passwords:</strong> The quantity of passwords to generate.</li>
+  <li><strong>Password length:</strong> The length of each generated password.</li>
+</ul>
 
-Parameters:
-- Number of passwords: The quantity of passwords to generate.
-- Password length: The length of each generated password.
+<!-- Character Set -->
+<h2>Characters used for password generation:</h2>
+<pre>
+  +-/*!&$#?=@<>abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890
+</pre>
 
-Characters used for password generation:
-The generated passwords consist of characters from the following set:
-+-/*!&$#?=@<>abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890
+<!-- Dependencies -->
+<h2>Dependencies:</h2>
+<ul>
+  <li><strong>random module:</strong> Used for random character selection.</li>
+</ul>
 
-Dependencies:
-- random module: Used for random character selection.
-
-Example Usage:
-$ python password_generator.py
+<!-- Example Usage -->
+<h2>Example Usage:</h2>
+<pre>
+$ python main.py
 Number of passwords: 5
 Password length: 12
 
@@ -32,3 +45,4 @@ Generated Passwords:
 3. L&9hD*2U=q6v
 4. WbX@7N4*JzA3
 5. xVp$H9B!eGtZ
+</pre>
